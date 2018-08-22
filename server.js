@@ -7,7 +7,7 @@ app.get('/api/customers', (req,res) => {
         {id: 1, firstName: 'John', lastName: 'Doe'},
         {id: 2, firstName: 'Yann', lastName: 'Underwood'},
         {id: 3, firstName: 'Steve', lastName: 'Anderson'}
-    ]
+    ];
     res.json(customers);
 });
 
